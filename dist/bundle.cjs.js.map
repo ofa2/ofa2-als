@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.cjs.js","sources":["../src/index.js"],"sourcesContent":["import als from 'async-local-storage';\n\nexport default function () {\n  als.enable();\n  global.als = als;\n}\n"],"names":["enable","als"],"mappings":";;;;;;AAEe,kBAAY;MACrBA,MAAJ;SACOC,GAAP,GAAaA,GAAb;;;;;"}
